@@ -1,0 +1,182 @@
+	body{
+		background-attachment:fixed; 
+
+		position: relative;
+		width:970px;
+		height: 100px;
+
+	}
+		/*background-color:green; */
+		
+		
+	
+/*
+	html{
+		min-width:100%;
+		min-height:100%;  
+	}*/
+
+	#main a p{
+		display:inline-block; 
+		position: relative;
+		left:42em;
+		bottom:13.5em;
+		background-color:white; 
+		width:8em;
+		height:1.5em;
+		color:black;
+		font-size:20px;
+		text-align:right;
+
+
+
+	}
+
+
+
+	#main p{
+		padding-top:1em;
+		text-align:center;
+	}
+
+	#background{
+		position:fixed; 
+	}
+
+
+	#bg-text{
+		color:white;
+		background-color:red; 
+		font-size:90px; 
+		display:inline-block; 
+		/*transform:(1deg);*/
+		/*-webkit-transform:rotate(1deg);*/
+		/*position:fixed;*/
+		position:relative;
+		bottom:4.3em;
+		left:8em;
+		width:2.5em;
+		padding-left:0.1em; 
+
+
+	}
+
+	#main a{
+		text-decoration:none; 
+		text-align:center; 
+
+
+	}
+
+
+
+
+	#main{
+		/*background-color:#ffffff; */
+		/*opacity:0.6;*/
+		width:14em;
+		height:0em;
+		padding-left:2em;
+		position:relative;
+		/*top:5em;*/
+		/*left:0.1em;*/
+		right:1em;
+		bottom:15em;
+		margin:17em;
+		/*font-family:'Macondo', cursive;*/
+
+		transition:margin-right .5s;
+		padding:20px;
+
+
+	}
+
+	#main h1{
+		width:4em;
+		/*text-align:right; */
+		color:black;
+		/*width:5em;*/
+		display: inline-block;
+		/*padding-right:2em;*/
+		/*padding-left:0.1em; */
+		font-size:9em;
+		font-weight:none;
+		position:fixed;
+		/*background-color:#ffffff;*/
+		/*opacity:0.8; */
+	}
+	
+	.overlay{
+		height:100%;
+		width:0%;
+		position:fixed;
+		z-index: 1;
+		top:0;
+		left:0;
+		background-color:rgba(0,0,0);
+		background-color:rgba(0,0,0, 0.9);
+		overflow-y:hidden; 
+		transition:0.5s;
+		 
+	}
+
+	.overlay-content{
+		position:relative;
+		top:25%;
+		width:100%;
+		text-align:center;
+		margin-top:30px;       
+	} 
+
+	.overlay a {
+		padding:8px;
+		text-decoration:none;
+		font-size:36px;
+		color:#818181;
+		display:block;
+		transition:0.3s;     
+	}
+
+	.overlay a:hover, .overlay a:focus{
+		color:#f1f1f1;
+
+	}
+
+	.overlay .closebtn{
+		position:absolute;
+		top:20px;
+		right:45px;
+		font-size:60px;
+	}
+
+	#main {
+		transition:margin-left .5s;
+		padding:16px; 
+	}
+
+	 span{
+		position:relative;
+		left:12.8em; 
+		top:4em;
+		/*bottom:1em;*/
+		color:green;
+		font-size:70px;
+		cursor:pointer; 
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
